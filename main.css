@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgb(243, 215, 183);
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 22px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.nav__item{
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 1px;
+text-align: left;
+text-transform: uppercase;
+cursor: pointer;
+}
+.nav__item:hover{
+    font-weight: 900;
+}
+.nav__link{
+    color: rgb(51, 51, 51);
+text-decoration: none;
+}
+.text__container{
+    width: 464px;
+    padding-bottom: 257px;
+    /* padding-top: 130px; */
+}
+.hero{
+    background: rgb(243, 215, 183);
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+font-family: "Roboto";
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0px;
+text-align: left;
+}
+.hero__mintitle{
+    color: rgb(0, 0, 0);
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+padding: 47px 0px;
+}
+.hero__btn{
+    width: 193px;
+height: 51px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100px;
+border: none;
+background: rgb(10, 119, 95);
+color: rgb(255, 255, 255);
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 1px;
+text-align: center;
+transition: 0.3s linear;
+}
+.content__hero{
+    display: inline-flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     padding-top: 130px;
+}
+.hero__picture{
+    position: absolute;
+    top: 130px;
+    left: 730px;
+}
+.hero__minpicture{
+    position: absolute;
+    top: 25px;
+    left: 630px;
+    transform: rotate(-25deg);
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+        from {
+          transform: rotate(0deg); /* Boshlang'ich holat */
+        }
+        to {
+          transform: rotate(360deg); /* 360 daraja aylantirish */
+        }
+      }
+.title{
+    color: rgb(0, 0, 0);
+font-family: "Roboto";
+font-size: 50px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0px;
+text-align: center;
+}
+.title__container{
+    width: 368px;
+    margin: 0 auto;
+    padding-top: 108px;
+}
+.section__container{
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section__item{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    
+}
+.section__text__h3{
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 48px;
+font-weight: 500;
+line-height: 56px;
+letter-spacing: 0px;
+text-align: left;
+}
+.section__mintext__p{
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+padding-top: 10px;
+}
+.kotta__rasmekan{
+    width: 467px;
+    height: 400px;
+}
+.section{
+    background-color: rgb(255, 251, 225);
+}
+footer{
+    background-color: rgb(243, 215, 183);
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+    background-color: rgb(243, 215, 183);
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer_list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+.footer_item{
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+cursor: pointer;
+}
+.follow__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+.footer__link{
+text-decoration: none;
+color: rgb(51, 51, 51);
+}
+.facebook:hover{
+    background-color: skyblue;
+}
+.insta:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+.hero__btn:hover{
+    background-color: rgb(5, 255, 201);
+    color: rgb(4, 0, 0);
+    transition: 0.3s linear;
+    text-shadow: 4px 4px 4px black;
+    box-shadow: 4px 4px 4px 1px rgb(134, 133, 133);
+}
+.section__pictures:hover{
+  transform: scale(1.3);
+  transition: 0.3s ease-in-out;
+}
+.section__pictures{
+    transition: 0.3s ease-in-out;
+}
